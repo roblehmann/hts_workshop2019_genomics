@@ -1,6 +1,13 @@
 # Computational Bioscience & Machine Learning 2018/2019 - KAUST
 ## Genome Assembly
 
+# Table of contents
+  [Module Structure](https://github.com/roblehmann/hts_workshop2019_genomics#structure)
+  [Data](https://github.com/roblehmann/hts_workshop2019_genomics#data)
+  [Software](https://github.com/roblehmann/hts_workshop2019_genomics#software)
+  
+  Check out the [Wiki](https://github.com/roblehmann/hts_workshop2019_genomics/wiki) for further reading.
+  
 ### Structure
 
 1. Quality control on input data 
