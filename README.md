@@ -1,4 +1,4 @@
-# Computational Bioscience & Machine Learning 2018/2019 - KAUST
+# High Throughput Sequencing Workshop, Genomics and Transcriptomics - KAUST 2019
 ## Genome Assembly
 ![Genome Assembly Workshop](/img/genomicsWSimg.png?raw=true)
 
