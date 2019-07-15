@@ -1,5 +1,6 @@
 # Computational Bioscience & Machine Learning 2018/2019 - KAUST
 ## Genome Assembly
+![Genome Assembly Workshop](/img/genomicsWSimg.png?raw=true)
 
 ### Table of contents
   * [Module Structure](https://github.com/roblehmann/hts_workshop2019_genomics#structure)
