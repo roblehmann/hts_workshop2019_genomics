@@ -23,4 +23,4 @@ ln -s ecoli_assembly-SRR2627019_40x/K77/final_contigs.fasta ecoli_1mb_40x_spades
 ln -s ecoli_assembly-SRR2627019_40x/K99/final_contigs.fasta ecoli_1mb_40x_spades_k99.fasta
 ln -s ecoli_assembly-SRR2627019_40x/K127/final_contigs.fasta ecoli_1mb_40x_spades_k127.fasta
 
-quast.py ecoli_1mb_40x_spades_k*.fasta -t 5 --scaffolds > ecoli_quast.log
+quast.py ecoli_1mb_40x_spades_k*.fasta -t 5 -o kmer_comparison_quast > ecoli_quast.log
