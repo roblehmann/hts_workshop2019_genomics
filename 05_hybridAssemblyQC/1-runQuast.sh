@@ -12,6 +12,8 @@ module load quast
 set -vex
 
 # collect different assemblies for comparison
+# TODO: add the other candidate assemblies
+
 ln -s ../01_assembly/ecoli_assembly-SRR2627019_40x/scaffolds.fasta ecoli_SRR2627019_scaffolds_40x.fasta
 ln -s ../04_hybridAssembly/SPAdes_hybrid/scaffolds.fasta ecoli_hybridAssembly_80x_5x.fasta
 
