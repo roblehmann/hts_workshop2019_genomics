@@ -16,9 +16,10 @@ set -vex
 
 # collect different assemblies for comparison
 ln -s ../01_assembly/ecoli_assembly-SRR2627019_40x/scaffolds.fasta ecoli_SRR2627019_scaffolds_40x.fasta
+# TODO: add the other candidate assemblies
 
 # get reference genome assembly with gene annotation
 ln -s ../data/GCF_000005845.2_ASM584v2* .
 
 quast.py ecoli_SRR2627019_scaffolds_* -t 5 -R GCF_000005845.2_ASM584v2_genomic.fna \
--G GCF_000005845.2_ASM584v2_genomic.gff --scaffolds > ecoli_quast.log
+-G GCF_000005845.2_ASM584v2_genomic.gff -o coverage_comparison_wRef_quast --scaffolds > ecoli_quast.log
